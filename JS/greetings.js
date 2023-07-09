@@ -9,6 +9,7 @@ const USERNAME_KEY = "username";
 function LoginFormSubmit(event){
     event.preventDefault();
     LoginForm.classList.add(HIDDEN_CLASSNAME);
+    console.log(LoginInput.value);
     localStorage.setItem(USERNAME_KEY, LoginInput.value);
     paintGreeting();  
     
