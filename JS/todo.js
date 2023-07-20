@@ -19,11 +19,12 @@ function saveTodos(){
 
 function paintTodo(Todo){
     const li = document.createElement("li");
-    li.id = Todo.id;
+    li.classList.add("list-style");
+;    li.id = Todo.id;
     const span = document.createElement("span");
     span.innerText = Todo.text;
     const button = document.createElement("button");
-    button.innerText = "del";
+    button.innerText = `DEL`;
     button.addEventListener("click",DeleteTodo);
     li.appendChild(span)
     li.appendChild(button);

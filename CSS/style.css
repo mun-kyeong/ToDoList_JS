@@ -1,3 +1,49 @@
 .hidden {
     display: none;
 }
+
+/* backgorund */
+.background {
+    position: fixed;
+    left: 0px; top: 0px;
+    z-index: -1;
+    filter: brightness(60%);
+}
+
+
+/*quote */
+#quote span{
+    display: inline-block;
+    width: 60vw;
+    size: 15px;
+    color:aliceblue;
+    filter: brightness(80%);
+    font-size: small;
+}
+
+#quote {
+    margin-top: 5vh;
+    margin-bottom: 5vh ;
+}
+
+
+/* clock */
+#clock{
+    margin-top: 25vh;
+    font-size: 50px;
+}
+
+
+/*weathers*/
+#weather{
+    position: absolute;
+    right: 10vh;
+    top: 10vh;
+}
+
+
+/* initial */
+body {
+    color: aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+/* tood-list */
+.list-style {
+    position: relative;
+    list-style-type: none;
+    padding: 5px 10px;
+    border-bottom: 2px solid aliceblue;
+    padding-left: 10px;
+}
+
+
+#todo-form {
+    margin-top: 10vh;
+}
+
+
+#todo-form input {
+    background: none;
+    width: 250px;
+    text-align: center;
+    border: 2px solid aliceblue;
+    border-style: double;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+#todo-list {
+    width: 300px;
+    text-align: left;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+#todo-list button {
+    position: absolute;
+    right: -100px;
+    bottom: -2px;
+    padding: 5px 30px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,38 @@
+/* greeting */
+
+#greeting {
+    font-size: 20px;
+}
+
+#login-form {
+    margin-top: 10vh;
+}
+
+#login-form input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    font-size: 20px;
+}
+
+#login-form button {
+    outline: none;
+    background: none;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 5px 25px;
+    margin-left: 10px;
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+    border-bottom: 0px;
+    border-left: 2px solid aliceblue;
+}
