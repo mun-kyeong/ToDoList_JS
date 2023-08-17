@@ -1,2 +1,2 @@
-TO DO LIST wiht vanilla JavaScript
+TO DO LIST with vanilla JavaScript
 2023.07.05
